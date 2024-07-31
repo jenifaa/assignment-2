@@ -7,6 +7,7 @@
 }
 .head{
     width: 100%;
+    height: 750px;
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
 
 
@@ -15,7 +16,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 57px 190px 57px 190px;
+    margin:  57px 190px 57px 190px;
+
 }
 .nav-title{
     font-weight: 800;
@@ -158,3 +160,89 @@ color: #FFFFFF;
     border-radius:50% ;
     background-color: #E6533C;
 }
+
+
+main{
+    width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+
+}
+.habit{
+    text-align: center;
+    margin: 100px 150px 50px 150px;
+   
+}
+
+.habit-title{
+    font-weight: 900;
+    font-size: 48px;
+}
+.habit-description{
+    font-weight: 400;
+    font-size: 14px;
+}
+.habit-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.exercise-image{
+    height: 180px;
+    width: 180px;
+    border: 4px solid #FFFFFF1A;
+    border-radius: 50%;
+}
+.text-colore{
+    color: #FFFFFF;
+
+}
+.colore{
+    color: #FFFFFF80;
+
+
+}
+
+.run{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 190px 50px 190px;
+    width: 1060px;
+    height: 371px;
+    background: #222222;
+    border: none;
+    border-radius: 10px;
+    
+
+}
+
+.run-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.run-text{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.run-image{
+    height: 312px;
+    width: 350px;
+    border: none;
+   
+    padding-right: 30px;
+    border-radius: 15px;
+}
+.btn-4{
+    padding: 16px 40px 16px 40px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 42px;
+}
+
