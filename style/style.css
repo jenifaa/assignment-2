@@ -1,0 +1,160 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.head{
+    width: 100%;
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 57px 190px 57px 190px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 36px;
+    font-style: italic;
+    color:  #E6533C;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    border: 1px solid #FFFFFF1A;
+    border-radius: 39px;
+    padding: 4px;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 45px;
+}
+.nav-button{
+font-weight: 600;
+font-size: 18px;
+border: none;
+border-radius: 45px;
+padding: 10px 20px 10px 20px;
+background: #E6533C;
+color: #FFFFFF;
+
+
+}
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    width: 100%;
+    position: absolute;
+
+} 
+.text{
+    max-width: 600px;
+    margin: 0px 80px 78px 190px;
+
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 24px;
+
+}
+@font-face{
+    font-family: Miami;
+    src: url(../Miama.ttf);
+}
+.banner-word{
+    font-weight: 800;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Miami;
+
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn-1{
+    padding: 16px 40px 16px 40px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 42px;
+}
+.btn-2{
+    padding: 16px 40px 16px 40px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 42px;
+    background-color: black;
+    margin-left: 10px;
+}
+.banner-image{
+    width: 100%;
+    position: relative;
+    left: -150px;
+} 
+
+
+ .card-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 55px;
+    background: #3030308A;
+    border: 1px solid;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px 20px 25px 30px;
+    position: relative;
+    top: -180px;
+    left: -240px;
+}
+   
+.card-2{
+    width: 150px;
+    height: 60px;
+    background: #3030308A;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 20px 20px;
+    position: relative;
+    top: -570px;
+    right: -60px;
+
+
+}
+.card-design1{
+    font-size: 26px;
+    font-weight: 900;
+}
+    
+.card-design{
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px 23px;
+}
+.card-text{
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn-3{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius:50% ;
+    background-color: #E6533C;
+}
