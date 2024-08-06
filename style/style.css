@@ -79,9 +79,11 @@ color: #FFFFFF;
 }
 .banner-word{
     font-weight: 800;
-    font-size: 50px;
+    font-size: 60px;
     font-style: italic;
     font-family: Miami;
+    line-height: 100px;
+    text-transform: lowercase;
 
 }
 .banner-description{
@@ -245,4 +247,89 @@ main{
     border: none;
     border-radius: 42px;
 }
+.calculation{
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+}
+.border{
+    
+    text-align: center;
+    width: 330px;
+  
+    height: 220px;
+}
+table{
+    border-collapse: collapse;
+    color: #FFFFFF;
+}
+table tr td{
+    border: 1px solid;
+    
+}
+table tr th{
+    border: 1px solid;
+    
+}
+.bmi{
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    padding-top: 30px;
 
+}
+.bmi-title{
+    padding: 0px 380px 100px 400px;
+    width: 670px;
+    height: 150px;
+}
+.bmi-heading{
+    font-weight: 900;
+    font-size: 48px;
+    color: #FFFFFF;
+
+}
+.bmi-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+
+.form{
+    width: 580px;
+    height: 390px;
+}
+.form-text{
+    height: 48px;
+    width: 282.5px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF;
+}
+.form-text2{
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color:#FFFFFF1A;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    color: #FFFFFF;
+    
+}
+.display{
+    display: flex;
+    gap: 12px;
+}
+.form-content{
+    margin: 0 auto;
+}
+.bmi-heading2{
+    font-size: 28px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
