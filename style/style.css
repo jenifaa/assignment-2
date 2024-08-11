@@ -266,9 +266,15 @@ nav li a{
     border: none;
     border-radius: 10px;
     padding-right: 30px;
+
     
     
 
+}
+.run-description{
+
+ font-weight: 400;
+ font-size: 0.875rem;
 }
 
 .run-title{
@@ -390,7 +396,7 @@ table tr th{
 }
 
 @media screen and (max-width: 576px) {
-    .navbar, .banner, .habit, .habit-image{
+    .navbar, .banner, .habit, .habit-image, .run{
         flex-direction: column;
     
     }
@@ -435,8 +441,48 @@ table tr th{
         
         margin-bottom: 5px;
     }
+    .habit{
+        height: 1400px;
+    }
     .habit-title{
-        line-height: 60px;
+        line-height: 50px;
+    }
+    
+    
+    .run{
+        height: 580px;
+        width: 390px;
+        margin: 0 auto;
+        padding: 0 20px 30px 20px; 
+
+    }
+    .run-text{
+        line-height: 15px;
+        width: 350px;
+        gap: 14px;
+        height: 265px;
+        
+    }
+    .run-image{
+        height: 200px;
+        width: 350px;
+        object-fit: fill;
+    }
+    .run-title{
+        font-size: 2.25rem;
+        font-weight: 900;
+        line-height: 50px;
+        text-align: left;
+    }
+    .run-description{
+        line-height: 24px;
+        text-align: left;
+
+    }
+    .btn-4{
+        padding: 16px 125px 16px 125px;
+        text-align: center;
+        
     }
 
     
