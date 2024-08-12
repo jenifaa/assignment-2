@@ -306,10 +306,7 @@ nav li a{
     font-size: 1.125rem;
     font-weight: 500;
 }
-.calculation{
-    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
-    display: none;
-}
+
 .border{
     
     text-align: center;
@@ -319,24 +316,34 @@ nav li a{
 }
 table{
     border-collapse: collapse;
-    color: #FFFFFF;
+    color:#FFFFFF50;
+    
 }
 table tr td{
-    border: 1px solid;
+    border: 1px solid #FFFFFF50;
+    color: #FFFFFF60;
+    font-size: 0.875rem;
+    font-weight: 400;
     
 }
 table tr th{
-    border: 1px solid;
+    border: 1px solid #FFFFFF50;
+    font-weight: 500;
+    font-size: 1rem;
+
     
+}
+.white{
+    color: #FFFFFF;
 }
 .bmi{
     width: 100%;
-    height: 490px;
+    height: 450px;
     display: flex;
     justify-content: space-around;
     background-color: #222222;
     padding-top: 30px;
-    display: none;
+    
 
 }
 .bmi-title{
@@ -346,7 +353,7 @@ table tr th{
 }
 .bmi-heading{
     font-weight: 900;
-    font-size: 48px;
+    font-size:3rem;
     color: #FFFFFF;
 
 }
@@ -369,7 +376,19 @@ table tr th{
     padding-left: 20px;
     margin-bottom: 12px;
     background-color: #FFFFFF1A;
-    color: #FFFFFF;
+    color: #FFFFFF60;
+    
+}
+.form-text3{
+    height: 48px;
+    width: 282.5px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    background-color: #FFFFFF1A;
+    color: #FFFFFF60;
+    border-right: 12px solid transparent;
 }
 .form-text2{
     width: 100%;
@@ -379,9 +398,21 @@ table tr th{
     background-color:#FFFFFF1A;
     padding-left: 20px;
     margin-bottom: 12px;
-    color: #FFFFFF;
+    color: #FFFFFF60;
+    border-right: 12px solid transparent;
     
 }
+.btn-5{
+    padding: 16px 60px 16px 70px;
+    background-color: #E6533C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 42px;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+
 .display{
     display: flex;
     gap: 12px;
@@ -390,13 +421,13 @@ table tr th{
     margin: 0 auto;
 }
 .bmi-heading2{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
     color: #FFFFFF;
 }
 
 @media screen and (max-width: 576px) {
-    .navbar, .banner, .habit, .habit-image, .run{
+    .navbar, .banner, .habit, .habit-image, .run, .calculation, .bmi{
         flex-direction: column;
     
     }
@@ -484,6 +515,58 @@ table tr th{
         text-align: center;
         
     }
+    .calculation{
+        max-width: 100%;
+    
+    }
+    .form{
+        width: 100%;
+    }
+    .bmi-title{
+        padding: 0%;
+        width: 353px;
+        margin: 0 auto;
+        
+    }
+    .table-bmi{
+        margin: 0 auto;
+    }
+
+    .bmi-heading{
+        line-height: 30px;
+        font-size: 2.5rem;
+    }
+    .bmi-description{
+        line-height: 24px;
+    }
+    .bmi-form{
+    
+        width: 360px;
+        margin:0  auto;
+        
+
+    }
+    .bmi-heading2{
+        line-height: 30px;
+        font-size: 1.25rem;
+    }
+    .form-content{
+        max-width: 385px;
+        
+    }
+    .form-text{
+        width: 165px;
+    }
+    .form-text2{
+        width: 385px;
+    }
+    .bmi{
+        height: 770px;
+        width: 100%;
+        margin: 0;
+    }
+    
+
 
     
 }
