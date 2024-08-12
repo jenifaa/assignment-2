@@ -347,7 +347,7 @@ table tr th{
 
 }
 .bmi-title{
-    padding: 0px 380px 100px 400px;
+    margin: 0px 380px 100px 450px;
     width: 670px;
     height: 150px;
 }
@@ -360,7 +360,7 @@ table tr th{
 .bmi-description{
     font-weight: 400;
     font-size: 14px;
-    color: #FFFFFF;
+    color: #FFFFFF70;
 
 }
 
@@ -426,8 +426,50 @@ table tr th{
     color: #FFFFFF;
 }
 
+.diet-text{
+    text-align: center;
+}
+.diet-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+
+    gap: 8px;
+    margin-left: 190px;
+    margin-top: 30px;
+}
+.diet-image1{
+    height: 300px;
+    width: 350px;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+.diet-title{
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 25px;
+}
+.diet-image3{
+    width: 600px;
+    height: 300px;
+}
+.diet-item{
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    width: 800px;
+    height: 400px;
+    background-color: #FFFFFF40;
+    border: none;
+    border-radius: 20px;
+
+}
+
 @media screen and (max-width: 576px) {
-    .navbar, .banner, .habit, .habit-image, .run, .calculation, .bmi{
+    .navbar, .banner, .habit, .habit-image, .run, .calculation, .bmi,
+    .diet-text, .diet-image, .diet-item{
         flex-direction: column;
     
     }
@@ -565,7 +607,17 @@ table tr th{
         width: 100%;
         margin: 0;
     }
-    
+    .diet-image{
+        width: 100%;
+        margin: 0;
+    }
+    .diet-item{
+        width: 100%;
+        height: auto;
+    }
+    .diet-image3{
+        width: 100%;
+    }
 
 
     
