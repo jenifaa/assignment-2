@@ -170,9 +170,12 @@ nav li a{
     display: flex;
     justify-content: center;
    align-items: center;
-  position: absolute;
+   position: relative;
+   top: -150px;
+   left: -70px;
+  /* position: absolute;
   top: 615px;
-  right: 470px;
+  right: 470px; */
 }
 #play{
     color: #FFFFFF;
@@ -187,9 +190,12 @@ nav li a{
     color: #FFFFFF;
     padding-top: 10px;
     text-align: center;
-   position: absolute;
+    position: relative;
+    top: -550px;
+    left: 230px;
+   /* position: absolute;
    top: 320px;
-   right: 140px;
+   right: 140px; */
     
 }
 .card-design1{
@@ -472,9 +478,9 @@ table tr th{
 }
 .team{
     max-width: 1040px;
-    margin: auto;
+    margin:0 auto;
     text-align: center;
-    height: 750px;
+    height: 700px;
 }
 .team-images img{
     width: 280px;
@@ -484,14 +490,17 @@ table tr th{
    
 
 }
+.team-box{
+    height: 250px;
+    width: 280px;
+}
 .team-images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    /* gap: 10px; */
-   height: 580px;
-    padding: 10px 10px 10px 40px;
+    height: 550px;
+    width: 900px;
     background-color: #222222;
+    padding: 20px 20px 20px 20px;
     border: none;
     border-radius: 18px;
 }
@@ -510,6 +519,7 @@ footer{
     background: #FFFFFF1A;
     width: 100%;
     height: 490px;
+    margin-top: 50px;
 
 }
 .foot{
@@ -545,7 +555,7 @@ footer h3{
         font-size: 0.875rem;
         font-weight: 400;
         color: #FFFFFF60;
-        line-height: 20px;
+        line-height: 18px;
 }
 hr{
     max-width: 1057px;
@@ -557,6 +567,22 @@ hr{
     color: #FFFFFF60;
     text-align: center;
     margin-top: 30px;
+}
+.member{
+    font-weight: 900;
+    font-size: 1.15rem;
+    color: #FFFFFF;
+    line-height: 8px;
+}
+/* .team-images img{
+    position: relative;
+} */
+.name, .name1, .name2, .name3, .name4, .name5{
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 40px;
+    
 }
 
 
@@ -602,20 +628,20 @@ hr{
         
     }
 
-    .card-1{
-       
-        top: 1030px;
-        left: 30px;
-        
-        
- 
-    }
+     .card-1{
+        position: relative;
+        top: -280px;
+        left: 40px;
+     }
     .card-2{
+        position: relative;
+        top: -750px;
         
-        top: 700px;
-        left: 200px;
-       
+        left: 180px;
+
     }
+       
+    
     .btn-1{
         padding: 16px 20px 16px 20px;
         margin-right: 5px;
@@ -639,6 +665,9 @@ hr{
         line-height: 40px;
         font-weight: 900;
 
+    }
+    .hide{
+        display: none;
     }
     
     .text-2{
@@ -782,14 +811,14 @@ hr{
     }
     .team-images{
         grid-template-columns: repeat(1, 1fr);
-        height: 1600px;
+        height: 1200px;
         width: 300px;
         margin: 0 auto;
         /* padding-left: 50px; */
         padding: 10px 10px 10px 25px;
     }
     .team{
-        height: 1900px;
+        height: 1380px;
         margin-bottom: 50px;
     }
     footer{
