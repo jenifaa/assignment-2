@@ -703,6 +703,9 @@ hr{
         padding: 0px;
         margin:0px;
     }
+    .run-text{
+        padding: 0px;
+    }
     .run-title{
         font-size: 2.20rem;
         font-weight: 800;
